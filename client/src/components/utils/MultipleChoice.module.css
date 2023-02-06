@@ -50,9 +50,3 @@
     line-height: 1.55;
     text-decoration: none;
 }
-.correctOptionColor{  
-      background-color: rgb(211, 249, 216);
-}
-.incorrectOptionColor{  
-    background-color: rgb(255, 227, 227);
-}

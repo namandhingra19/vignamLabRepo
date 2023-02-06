@@ -5,14 +5,13 @@ const MultipleChoiceQuestion = (props) => {
   const [isCorrectOption,setisCorrectOption]=useState(false);
   const [isIncorreectOption,setisinCorrectOption]=useState(false)
   const clickHandler=(index)=>{
-    setSelectedOptionIndex(index);
+   var element =  document.getElementById(`item-${index}`);
+     setSelectedOptionIndex(index);
         if(index == props.question.correctOption){
-            setisCorrectOption(true);
-            setisinCorrectOption(false);
+            setisCorrectOption(true)
         }
         else{
             setisCorrectOption(false)
-            setisinCorrectOption(true);
         }
         
   }
@@ -20,24 +19,19 @@ const MultipleChoiceQuestion = (props) => {
     <div className={`container ${style.box}`}>
     <h2 className={` ${style.questionTitle}`}>{props.question.title}</h2>
       {props.question.options.map((option, index) => (
-        <div className={`${style.optionsBox} ${(isCorrectOption)?`${style.correctOptionColor}`:`${style.optionsBox}`} ${(isIncorreectOption)?`${style.incorrectOptionColor}`:`${style.optionsBox}`}`} key={index}> 
+        <div  style={{
+            backgroundColor: (selectedOptionIndex === index)? (isCorrectOption ? 'rgb(211, 249, 216)' : 'rgb(255, 227, 227)'):'',
+          }} className={`${style.optionsBox} `} key={index}> 
             <input className={` ${style.checkboxOption}`}
             type="checkbox"
             name="options"
             value={index}
             checked={selectedOptionIndex === index}
-            onChange={clickHandler.bind(null, index)}
+            onChange={clickHandler.bind(null,index)}
           />
-          <div className={` ${style.optionText}`}>{option}</div>
+          <div className={` ${style.optionText}`}>{option} </div>
         </div>
       ))}
-      {selectedOptionIndex !== '' && (
-        <div>
-          {selectedOptionIndex === props.question.correctOption
-            ? "Correct!"
-            : "Incorrect, try again"}
-        </div>
-      )}
     </div>
   );
 };
