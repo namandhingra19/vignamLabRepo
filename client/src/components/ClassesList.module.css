@@ -1,5 +1,5 @@
 .classes{
-    z-index: 30;
+    z-index: 9999999;
     position: fixed;
     background-color: white;
     width:50%;

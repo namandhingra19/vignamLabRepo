@@ -33,15 +33,15 @@ function App() {
     {
       !error && !isLoading &&
       <div className='container-fluid vh-100 d-flex flex-column'>
-      <div className='row' style={{backgroundColor:'rgb(248, 249, 250)'}}>
+      <div className='row border' style={{backgroundColor:'rgb(248, 249, 250)', position:'fixed',width:'100%', overflow: 'hidden', top:'0',zIndex:'9999'}}>
           <Navigation/>
       </div>
-      <div className='row h-100'>
-          <div className='col-3 border' style={{paddingTop:'24px',paddingBottom:'24px',backgroundColor:'rgb(248, 249, 250)'}}>
+      <div className='row h-100' style={{marginTop:'55px'}}>
+          <div className='col-3 border fixed h-100' style={{paddingTop:'24px',paddingBottom:'24px',backgroundColor:'rgb(248, 249, 250)',position:'fixed', left:0, zIndex:'9999'}}>
                   <TopicsList/>
           </div>
           
-          <div className='col-9 border'>
+          <div className='col-9 border offset-3 two'>
                 <Description/>
           </div>
       </div>
