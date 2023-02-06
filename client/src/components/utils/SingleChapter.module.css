@@ -1,0 +1,59 @@
+.dropDownButton{
+    line-height: 1.15;
+    margin: 0px;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Greycliff CF", Verdana, sans-serif;
+    cursor: pointer;
+    border: 0px;
+    appearance: none;
+    background-color: transparent;
+    text-align: left;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    padding: 10px 16px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+.listBookIcon{
+    font-family: "Greycliff CF", Verdana, sans-serif;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
+    border-radius: 4px;
+    background-color: rgb(231, 245, 255);
+    color: rgb(34, 139, 230);
+    border: 1px solid transparent;
+}
+.chapterTitle{
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Greycliff CF", Verdana, sans-serif;
+    cursor: pointer;
+    border: 0px;
+    appearance: none;
+    background-color: transparent;
+    text-align: left;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    padding: 10px 16px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+.internalTopic{
+    font-family: "Greycliff CF", Verdana, sans-serif;
+    padding-left: 12px;
+    opacity: 1; 
+    transition: opacity 200ms ease 0s;
+}

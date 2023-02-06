@@ -1,0 +1,35 @@
+.descButton{
+    padding: 0px 26px;
+    appearance: none;
+    text-align: left;
+    text-decoration: none;
+    box-sizing: border-box;
+    height: 50px;
+    font-family: "Greycliff CF", Verdana, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: inline-block;
+    width: auto;
+    border-radius: 4px;
+    font-weight: 600;
+    position: relative;
+    line-height: 1;
+    font-size: 18px;
+    user-select: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: rgb(231, 245, 255);
+    color: rgb(34, 139, 230);
+}
+.descButton:hover{
+    background-color: rgb(34, 139, 230);
+    color: rgb(255, 255, 255);
+}
+.fontText{
+    font-family: "Greycliff CF", Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.clickedDesc{
+    background-color: rgb(34, 139, 230);
+    color: rgb(255, 255, 255);
+}

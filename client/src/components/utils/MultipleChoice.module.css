@@ -1,0 +1,58 @@
+.box{
+    outline: 0px;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 1px 3px, rgb(0 0 0 / 5%) 0px 10px 15px -5px, rgb(0 0 0 / 4%) 0px 7px 7px -5px;
+    margin: 12px;
+    padding: 24px;
+}
+.questionTitle{
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+.optionsBox{
+    border-radius: 2px;
+    padding: 10px;
+    margin-bottom: 6px;
+    background-color: rgb(248, 249, 250);
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.checkboxOption{
+    -webkit-tap-highlight-color: transparent;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(206, 212, 218);
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    padding: 0px;
+    display: block;
+    margin: 0px;
+    transition: border-color 100ms ease 0s, background-color 100ms ease 0s;
+    cursor: default;
+}
+.optionText{
+    font-family: "Greycliff CF", Verdana, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    color: inherit;
+    font-size: inherit;
+    line-height: 1.55;
+    text-decoration: none;
+}
+.correctOptionColor{  
+      background-color: rgb(211, 249, 216);
+}
+.incorrectOptionColor{  
+    background-color: rgb(255, 227, 227);
+}

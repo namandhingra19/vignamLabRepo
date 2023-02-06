@@ -1,0 +1,6 @@
+.insideMenu{
+    box-sizing: border-box;
+    background-color: rgb(231, 245, 255);
+    margin: 2px;
+    border-radius: 8px;
+}

@@ -1,0 +1,32 @@
+.classes{
+    z-index: 30;
+    position: fixed;
+    background-color: white;
+    width:50%;
+    padding: 0 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    max-height:80%;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background-color: rgb(248, 249, 250);
+}  
+
+.classeslist{
+    overflow-y: scroll;
+    /* width: fit-content; */
+    max-height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.selectSubject{
+    margin-left: 22px;
+    margin-bottom: 15px;
+    font-family: "Greycliff CF", Verdana, sans-serif;   
+    font-weight: bold;
+    font-size:22px;
+}

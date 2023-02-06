@@ -1,0 +1,40 @@
+.transitionDiv{
+    font-family: "Greycliff CF", Verdana, sans-serif;
+    opacity: 1;
+    transition: opacity 200ms ease 0s;
+}
+.topicTitle{
+    font-family: "Greycliff CF", Verdana, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.55;
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    padding: 10px 16px;
+    margin-left: 12px;
+    font-size: 14px;
+    border-left: 1px solid rgb(51, 154, 240);
+}
+.topicTitle:hover{
+    background-color: rgb(51, 154, 240);
+    color: rgb(255, 255, 255);
+}
+.titleClicked{
+    background-color: rgb(51, 154, 240);
+    color: rgb(255, 255, 255);
+}
+.topicTitleText{
+    font-family: "Greycliff CF", Verdana, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    padding: 0px 16px;
+    margin-left: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.clickTopic{
+    background-color: rgb(51, 154, 240);
+    color: rgb(255, 255, 255);
+}
